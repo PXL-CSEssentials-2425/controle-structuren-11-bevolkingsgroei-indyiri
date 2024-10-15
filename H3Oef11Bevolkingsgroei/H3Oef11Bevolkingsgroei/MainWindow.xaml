@@ -1,0 +1,22 @@
+﻿<Window x:Class="H3Oef11Bevolkingsgroei.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:H3Oef11Bevolkingsgroei"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="currentPopulationLabel" Content="Huidige bevolking" HorizontalAlignment="Left" Height="32" Margin="27,81,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label x:Name="countryLabel" Content="Land" HorizontalAlignment="Left" Height="32" Margin="27,44,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label x:Name="growthPercentageLabel" Content="Groeipercentage" HorizontalAlignment="Left" Height="32" Margin="27,118,0,0" VerticalAlignment="Top" Width="123"/>
+        <TextBox x:Name="countryTextBox" HorizontalAlignment="Left" Height="32" Margin="192,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <TextBox x:Name="growthPercentageTextBox" HorizontalAlignment="Left" Height="32" Margin="192,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <TextBox x:Name="currentPopulationTextBox" HorizontalAlignment="Left" Height="32" Margin="192,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Height="147" Margin="27,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="356"/>
+        <Button x:Name="calculateButton" Content="Bereken" HorizontalAlignment="Left" Height="37" Margin="468,76,0,0" VerticalAlignment="Top" Width="91" Click="calculateButton_Click"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Height="37" Margin="468,192,0,0" VerticalAlignment="Top" Width="91" Click="closeButton_Click"/>
+        <Button x:Name="clearButton" Content="Wissen" HorizontalAlignment="Left" Height="37" Margin="468,134,0,0" VerticalAlignment="Top" Width="91" Click="clearButton_Click"/>
+
+    </Grid>
+</Window>
