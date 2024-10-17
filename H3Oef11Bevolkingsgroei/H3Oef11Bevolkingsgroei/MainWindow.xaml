@@ -13,7 +13,7 @@
         <TextBox x:Name="countryTextBox" HorizontalAlignment="Left" Height="32" Margin="192,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
         <TextBox x:Name="growthPercentageTextBox" HorizontalAlignment="Left" Height="32" Margin="192,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
         <TextBox x:Name="currentPopulationTextBox" HorizontalAlignment="Left" Height="32" Margin="192,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
-        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Height="147" Margin="27,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="356"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Height="176" Margin="27,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="356" IsEnabled="False"/>
         <Button x:Name="calculateButton" Content="Bereken" HorizontalAlignment="Left" Height="37" Margin="468,76,0,0" VerticalAlignment="Top" Width="91" Click="calculateButton_Click"/>
         <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Height="37" Margin="468,192,0,0" VerticalAlignment="Top" Width="91" Click="closeButton_Click"/>
         <Button x:Name="clearButton" Content="Wissen" HorizontalAlignment="Left" Height="37" Margin="468,134,0,0" VerticalAlignment="Top" Width="91" Click="clearButton_Click"/>
